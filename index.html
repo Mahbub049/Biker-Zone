@@ -68,7 +68,7 @@
     </nav>
 
 
-    <div class="carousel w-full md:h-[550px] bg-bg-slider-color">
+    <div class="carousel w-full lg:h-[550px] bg-bg-slider-color">
       <div id="slide1" class="carousel-item relative w-full">
         <div class="flex p-24 flex-col lg:flex-row  justify-between items-center gap-5">
           <div class="space-y-7 flex-1">
@@ -78,7 +78,7 @@
               <button class="btn bg-bg-btn-color text-white text-base">Purchase</button>
           </div>
           <div class="flex-1">
-            <img src="./images/slider/bike1.png" class="w-full md:w-3/4" />
+            <img src="./images/slider/bike1.png" class="w-full lg:w-3/4" />
           </div>
         </div>
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -139,7 +139,62 @@
       </div>
     </div>
   </header>
+
   <main class="md:container md:mx-auto">
+    <!-- Featured Bikes -->
+    <section class="py-32">
+      <div>
+      <div class="pb-12">
+        <h1 class="text-5xl font-semibold text-center ">Featured Bikes In This Year</h1>
+        <h5 class="text-sm font-semibold text-bg-btn-color text-center">Best bike collection</h5>
+        <div class="flex justify-center pt-1">
+          <hr class="border border-bg-btn-color w-11">
+        </div>
+      </div>
+        <div class="flex flex-col md:flex-wrap md:flex-row w-3/4 md:w-full mx-auto justify-center gap-20 md:gap-36">
+          <img class="mix-blend-luminosity" src="./images/others/feature-bike2.png" alt="">
+          <img src="./images/others/feature-bike.png" alt="">
+          <img class="mix-blend-luminosity" src="./images/others/feature-bike2.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Bikes -->
+    <section>
+      <h1 class="text-5xl font-semibold capitalize text-center pb-12">Latest Bikes</h1>
+      <div class="grid w-10/12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 mx-auto ">
+        <div class="card bg-base-100 shadow-xl mb-10">
+          <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+            <p class="pt-2 pb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn bg-bg-btn-color text-white">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mb-10">
+          <figure><img src="./images/others/latest2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+            <p class="pt-2 pb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn bg-bg-btn-color text-white">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mb-10">
+          <figure><img src="./images/others/latest3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+            <p class="pt-2 pb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn bg-bg-btn-color text-white">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer></footer>
 </body>
